@@ -18,7 +18,7 @@ local function day_05(part_b)
       l:gsub(re_crate, function(c)
         nstack = nstack + 1
         if not stacks[nstack] then stacks[nstack] = '' end
-        if c~=' ' and not c:find'%d'then
+        if c:find'%a'then
           stacks[nstack] = stacks[nstack] .. c
         end
       end)
