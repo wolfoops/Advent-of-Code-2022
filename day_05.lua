@@ -43,7 +43,7 @@ local function day_05(part_b)
   local answer={}
   for i=1,#stacks do
     local s = stacks[i]
-    answer[1+#answer] = s:sub(#s,#s)
+    answer[1+#answer] = #s==0 and ' '--[[should be?]] or s:sub(#s,#s)
   end
   return table.concat(answer)
 end
