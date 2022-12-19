@@ -64,7 +64,7 @@ for l in io.lines(input)do
         end
       end
     end
-    -- no need for 3rd group
+    -- no need for 3rd elf
     if not badge then
       print('no badge found for group:', (cnt//3), cnt)
     else
