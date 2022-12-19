@@ -20,6 +20,6 @@ for l in io.lines(input)do
     sum2 = sum2 + 1
   end
 end
-print('day 03a:',cnt, sum1)
+print('day 04a:',cnt, sum1)
 --- part b
-print('day 03b:',cnt, sum2)
+print('day 04b:',cnt, sum2)
